@@ -8,26 +8,9 @@
 @import "partials/homepage";
 @import "partials/base";
 @import "partials/footer";
-@import "partials/articles";
+@import "partials/previews";
 
-html {
-	font-family: "Raleway-Regular", Arial, sans-serif;
-}
-
-.main-color {
-	color: $mainColor;
-}
-
-.bold-text {
-	font-family: "Raleway-Bold";
-}
-
-.row {
-	display: flex;
-	justify-content: space-between;
-}
-
-//GRID 12 KOLUMN
+//TWORZENIE GRIDA (12 KOLUMN)
 .grid-container {
 	width: $containerFullWidth;
 	max-width: $containerWidth;

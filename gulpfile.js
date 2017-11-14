@@ -16,6 +16,7 @@ gulp.task('serve', function () {
   });
 });
 
+//TASK DO KOMPILOWANIA
 gulp.task('sass', function () {
   return gulp.src('./src/sass/**/main.scss')
     .pipe(plumber({
@@ -31,9 +32,10 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream({match: './src/**/*.css'}));
 });
 
+//TASK DO OBSERWOWANIA
 gulp.task('watch', function(){
   gulp.watch('./src/sass/**/*.scss', ['sass']);
-  gulp.watch("./src/html/*.html").on('change', browserSync.reload);
+  gulp.watch("*.html").on('change', browserSync.reload);
 });
 
 gulp.task('default', function() {
