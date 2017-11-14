@@ -1,0 +1,98 @@
+.carousel {
+    height: 100%;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+    }
+
+
+.carousel-navigation {
+    font-size: 4rem;
+    line-height: 500%;
+    .carousel-arrow-right {
+        float: right;
+    }
+}
+
+
+//PRICING
+.pricing {
+    background: rgb(241,241,241);
+}
+
+.price-header {
+    padding: 40px 0 40px 0;
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+
+    .price-header-underline {
+        height: 5px;
+        width: 33%;
+        background-color: $mainColor;
+        margin-top: 5px;
+    }
+}
+
+[class*="price-plan"] {
+    border: 1px solid $boxes-grey;
+    background: rgb(249,249,249);
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-around;
+
+    .outer-circle {
+        position: absolute;
+        top: -40px;
+        height: 60px;
+        width: 60px;
+        border: 1px solid $boxes-grey;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .inner-circle {
+            height: 30px;
+            width: 30px;
+            background-color: $boxes-grey;
+            border-radius: 50%;
+        }
+    }
+
+    h3 {
+        color: $mainColor;
+        margin: 40px 0 40px 0;
+        font-size: 20px;
+    }
+
+    .price-circle {
+        height: 150px;
+        width: 150px;
+        border: 1px solid $boxes-grey;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 40px;
+        color: $boxes-grey;
+
+        span {
+            font-size: 15px;
+        }
+
+        .per-month-text {
+            font-size: 20px;
+        }
+    }
+}
