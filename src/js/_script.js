@@ -34,4 +34,8 @@ document.addEventListener("DOMContentLoaded", function(){
         })
     }
 
+    //TWORZENIE MODUŁÓW
+
+    // var secondaryPreview = document.querySelector("section > .secondary-preview >")
+
 });
