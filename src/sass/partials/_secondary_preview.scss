@@ -1,0 +1,31 @@
+.secondary-preview {
+    .content-type {
+        float: left;
+    }
+
+    .secondary-content {
+        background: grey;
+        width: 380px;
+        padding: 20px 0px 20px 0px;
+
+        h1 {
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px;
+        }
+        button {
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+            background-color: $mainColor;
+            height: 60px;
+            width: 200px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            border: 0px;
+        }
+    }
+}

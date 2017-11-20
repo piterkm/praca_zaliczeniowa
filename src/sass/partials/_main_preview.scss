@@ -2,7 +2,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
 
-    #main-photo {}
+    #main-photo {
+        width: auto;
+        height: 550px;
+    }
 
     .main-element {
         height: 550px;
@@ -20,12 +23,17 @@
         }
         div {
             button {
+                display: block;
+                margin: auto;
+                margin-bottom: 20px;
                 background-color: $mainColor;
                 height: 60px;
                 width: 200px;
                 font-size: 20px;
+                font-weight: bold;
                 color: white;
                 border: 0px;
+                // margin: 10px 20px 20px 20px
             }
         }
 
