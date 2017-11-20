@@ -17,6 +17,7 @@
     "gulp-sourcemaps": "^2.6.0"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "masonry-layout": "^4.2.0"
   }
 }

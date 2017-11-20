@@ -11,6 +11,7 @@
 @import "partials/previews";
 @import "partials/main_preview";
 @import "partials/secondary_preview";
+@import "partials/masonry_layout";
 
 //TWORZENIE GRIDA (12 KOLUMN)
 .grid-container {
@@ -48,4 +49,9 @@
 		}
 		$i: $i - 1;
 	}
+}
+
+//TWORZENIE GRIDA (MASONRY - 3 KOLUMNY)
+.gird-item {
+	width: 380px;
 }
