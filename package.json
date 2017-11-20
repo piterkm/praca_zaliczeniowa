@@ -15,5 +15,8 @@
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.2.0"
   }
 }
