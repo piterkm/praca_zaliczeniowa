@@ -22,6 +22,7 @@ main, article, aside, figure, footer, header, nav, section, details, summary {
   display: block; }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -47,7 +48,9 @@ body {
     height: 550px; }
   .main-preview .main-element {
     height: 550px;
-    background-color: grey; }
+    background-color: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-left: 0px; }
     .main-preview .main-element h1 {
       font-size: 28px;
       font-weight: bold;
@@ -59,12 +62,12 @@ body {
       display: block;
       margin: auto;
       margin-bottom: 20px;
-      background-color: lightgrey;
+      background-color: #3E3E3E;
       height: 60px;
       width: 200px;
       font-size: 20px;
       font-weight: bold;
-      color: white;
+      color: #FFFFFF;
       border: 0px; }
 
 #masonry * {
@@ -74,12 +77,21 @@ body {
 
 #masonry .secondary-element {
   width: 380px;
-  float: left; }
+  float: left;
+  margin-bottom: 20px;
+  position: relative; }
   #masonry .secondary-element .content-type {
-    float: left; }
+    float: left;
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3E3E3E;
+    color: #FFFFFF; }
   #masonry .secondary-element .secondary-content {
-    background: grey;
-    padding: 20px 10px 20px 10px; }
+    background: #FFFFFF;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid #CACACA;
+    border-top: 0px; }
     #masonry .secondary-element .secondary-content h1 {
       margin: 0px 20px 0px 20px;
       font-size: 18px;
@@ -90,12 +102,12 @@ body {
     #masonry .secondary-element .secondary-content button {
       display: block;
       margin: auto;
-      background-color: lightgrey;
+      background-color: #3E3E3E;
       height: 60px;
       width: 200px;
       font-size: 20px;
       font-weight: bold;
-      color: white;
+      color: #FFFFFF;
       border: 0px; }
 
 .grid-container {
@@ -139,5 +151,3 @@ body {
 
 .gird-item {
   width: 380px; }
-
-/*# sourceMappingURL=main.css.map */

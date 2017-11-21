@@ -9,7 +9,9 @@
 
     .main-element {
         height: 550px;
-        background-color: grey;
+        background-color: $mainColor;
+        border: 1px solid $additionalColor;
+        border-left: 0px;
 
         h1 {
             font-size: 28px;
@@ -26,12 +28,12 @@
                 display: block;
                 margin: auto;
                 margin-bottom: 20px;
-                background-color: $mainColor;
+                background-color: $secondaryColor;
                 height: 60px;
                 width: 200px;
                 font-size: 20px;
                 font-weight: bold;
-                color: white;
+                color: $mainColor;
                 border: 0px;
                 // margin: 10px 20px 20px 20px
             }
