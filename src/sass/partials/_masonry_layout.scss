@@ -8,7 +8,7 @@
     .secondary-element {
         width: 380px;
         float: left;
-        margin: 5px;
+        // margin: 5px;
         .content-type {
             float: left;
         }
@@ -16,19 +16,22 @@
         .secondary-content {
             background: grey;
             // width: 380px;
-            padding: 20px 0px 20px 0px;
+            // padding: 20px 10px 20px 10px;
 
             h1 {
-                margin: 10px;
+                // margin: 20px;
+                font-size: 18px;
+                font-weight: bold;
             }
 
             p {
-                margin: 10px;
+                margin: 20px;
+                font-size: 16px;
             }
             button {
                 display: block;
                 margin: auto;
-                margin-bottom: 20px;
+                // margin-bottom: 20px;
                 background-color: $mainColor;
                 height: 60px;
                 width: 200px;

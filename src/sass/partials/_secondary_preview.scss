@@ -1,31 +1,78 @@
-.secondary-preview {
-    .content-type {
-        float: left;
+#masonry {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
 
-    .secondary-content {
-        background: grey;
+    .secondary-element {
         width: 380px;
-        padding: 20px 0px 20px 0px;
-
-        h1 {
-            margin: 10px;
+        float: left;
+        // margin: 10px;
+        .content-type {
+            float: left;
         }
 
-        p {
-            margin: 10px;
+        .secondary-content {
+            background: grey;
+            // width: 380px;
+            padding: 20px 10px 20px 10px;
+
+            h1 {
+                margin: 0px 20px 0px 20px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 20px;
+                font-size: 16px;
+            }
+            button {
+                display: block;
+                margin: auto;
+                // margin-bottom: 20px;
+                background-color: $mainColor;
+                height: 60px;
+                width: 200px;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                border: 0px;
+            }
         }
-        button {
-            display: block;
-            margin: auto;
-            margin-bottom: 20px;
-            background-color: $mainColor;
-            height: 60px;
-            width: 200px;
-            font-size: 20px;
-            font-weight: bold;
-            color: white;
-            border: 0px;
-        }
+
     }
 }
+
+// .secondary-preview {
+//     .content-type {
+//         float: left;
+//     }
+//
+//     .secondary-content {
+//         background: grey;
+//         width: 380px;
+//         padding: 20px 0px 20px 0px;
+//
+//         h1 {
+//             margin: 10px;
+//         }
+//
+//         p {
+//             margin: 10px;
+//         }
+//         button {
+//             display: block;
+//             margin: auto;
+//             margin-bottom: 20px;
+//             background-color: $mainColor;
+//             height: 60px;
+//             width: 200px;
+//             font-size: 20px;
+//             font-weight: bold;
+//             color: white;
+//             border: 0px;
+//         }
+//     }
+// }

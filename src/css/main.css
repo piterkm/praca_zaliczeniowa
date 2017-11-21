@@ -22,7 +22,6 @@ main, article, aside, figure, footer, header, nav, section, details, summary {
   display: block; }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -68,29 +67,6 @@ body {
       color: white;
       border: 0px; }
 
-.secondary-preview .content-type {
-  float: left; }
-
-.secondary-preview .secondary-content {
-  background: grey;
-  width: 380px;
-  padding: 20px 0px 20px 0px; }
-  .secondary-preview .secondary-content h1 {
-    margin: 10px; }
-  .secondary-preview .secondary-content p {
-    margin: 10px; }
-  .secondary-preview .secondary-content button {
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    background-color: lightgrey;
-    height: 60px;
-    width: 200px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    border: 0px; }
-
 #masonry * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -98,21 +74,22 @@ body {
 
 #masonry .secondary-element {
   width: 380px;
-  float: left;
-  margin: 5px; }
+  float: left; }
   #masonry .secondary-element .content-type {
     float: left; }
   #masonry .secondary-element .secondary-content {
     background: grey;
-    padding: 20px 0px 20px 0px; }
+    padding: 20px 10px 20px 10px; }
     #masonry .secondary-element .secondary-content h1 {
-      margin: 10px; }
+      margin: 0px 20px 0px 20px;
+      font-size: 18px;
+      font-weight: bold; }
     #masonry .secondary-element .secondary-content p {
-      margin: 10px; }
+      margin: 20px;
+      font-size: 16px; }
     #masonry .secondary-element .secondary-content button {
       display: block;
       margin: auto;
-      margin-bottom: 20px;
       background-color: lightgrey;
       height: 60px;
       width: 200px;
@@ -162,3 +139,5 @@ body {
 
 .gird-item {
   width: 380px; }
+
+/*# sourceMappingURL=main.css.map */
