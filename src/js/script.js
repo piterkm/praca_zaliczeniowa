@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     $('#masonry').masonry({
         itemSelector: '.secondary-element',
-        columnWidth: 380,
+        columnWidth: 398,
     })
     console.log("tworzę grida o szerokości kolumny 380px");
 

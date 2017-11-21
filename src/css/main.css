@@ -91,25 +91,25 @@ body {
     color: white;
     border: 0px; }
 
-.masonry-layout * {
+#masonry * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.masonry-layout .secondary-element {
+#masonry .secondary-element {
   width: 380px;
   float: left;
   margin: 5px; }
-  .masonry-layout .secondary-element .content-type {
+  #masonry .secondary-element .content-type {
     float: left; }
-  .masonry-layout .secondary-element .secondary-content {
+  #masonry .secondary-element .secondary-content {
     background: grey;
     padding: 20px 0px 20px 0px; }
-    .masonry-layout .secondary-element .secondary-content h1 {
+    #masonry .secondary-element .secondary-content h1 {
       margin: 10px; }
-    .masonry-layout .secondary-element .secondary-content p {
+    #masonry .secondary-element .secondary-content p {
       margin: 10px; }
-    .masonry-layout .secondary-element .secondary-content button {
+    #masonry .secondary-element .secondary-content button {
       display: block;
       margin: auto;
       margin-bottom: 20px;
