@@ -17,7 +17,7 @@
 .grid-container {
 	width: $containerFullWidth;
 	max-width: $containerWidth;
-	border: 1px solid red;
+	// border: 1px solid red;
 	margin: 0 auto;
 
 	.row {
@@ -25,13 +25,13 @@
 			content: "";
 			display: table;
 			clear: both;
-			border: 1px solid blue;
+			// border: 1px solid blue;
 		}
 
 		[class*="col-"] {
 			float: left;
 			min-height: 1px;
-			border: 1px solid greenyellow;
+			// border: 1px solid greenyellow;
 			// padding: 10px;
 			// margin-top: 10px;
 			// @media (max-width: 550px) {

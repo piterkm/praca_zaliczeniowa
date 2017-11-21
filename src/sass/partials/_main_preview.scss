@@ -1,43 +1,5 @@
-.main-preview {
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    #main-photo {
-        width: auto;
-        height: 550px;
-    }
-
-    .main-element {
-        height: 550px;
-        background-color: $mainColor;
-        border: 1px solid $additionalColor;
-        border-left: 0px;
-
-        h1 {
-            font-size: 28px;
-            font-weight: bold;
-            padding: 20px 20px 10px 20px;
-        }
-
-        p {
-            font-size: 18px;
-            padding: 0px 20px 20px 20px;
-        }
-        div {
-            button {
-                display: block;
-                margin: auto;
-                margin-bottom: 20px;
-                background-color: $secondaryColor;
-                height: 60px;
-                width: 200px;
-                font-size: 20px;
-                font-weight: bold;
-                color: $mainColor;
-                border: 0px;
-                // margin: 10px 20px 20px 20px
-            }
-        }
-
-    }
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 570px;
 }

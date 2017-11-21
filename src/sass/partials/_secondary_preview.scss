@@ -1,3 +1,17 @@
+.section-header {
+    h2 {
+        padding: 10px 0px 10px 0px;
+        margin: 20px 0px 20px 0px;
+        border: 4px solid $secondaryColor;
+        border-left: 0px;
+        border-right: 0px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+
 #masonry {
     * {
         -webkit-box-sizing: border-box;
@@ -13,11 +27,10 @@
         .content-type {
             float: left;
             position: absolute;
-            margin: 10px;
+            margin: 20px;
             padding: 10px;
             background-color: $secondaryColor;
             color: $mainColor;
-
         }
 
         .secondary-content {
@@ -53,35 +66,3 @@
 
     }
 }
-
-// .secondary-preview {
-//     .content-type {
-//         float: left;
-//     }
-//
-//     .secondary-content {
-//         background: grey;
-//         width: 380px;
-//         padding: 20px 0px 20px 0px;
-//
-//         h1 {
-//             margin: 10px;
-//         }
-//
-//         p {
-//             margin: 10px;
-//         }
-//         button {
-//             display: block;
-//             margin: auto;
-//             margin-bottom: 20px;
-//             background-color: $mainColor;
-//             height: 60px;
-//             width: 200px;
-//             font-size: 20px;
-//             font-weight: bold;
-//             color: white;
-//             border: 0px;
-//         }
-//     }
-// }
