@@ -22,7 +22,6 @@ main, article, aside, figure, footer, header, nav, section, details, summary {
   display: block; }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -33,48 +32,27 @@ header {
   background-color: #FFFFFF;
   border-bottom: 1px solid #CACACA;
   color: black;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   font-size: 18px;
   font-weight: bold; }
-  header .navigation {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+  header #logo {
+    position: relative;
+    height: 60px;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    height: 60px; }
-    header .navigation ul {
-      border: 1px solid red;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      list-style: none; }
-      header .navigation ul li {
-        height: 60px;
-        border: 1px solid green;
-        margin: auto;
-        display: inline-block; }
+    align-items: center; }
+    header #logo img {
+      position: absolute; }
+  header .navigation ul {
+    list-style: none; }
+    header .navigation ul li {
+      height: 60px;
+      margin: auto;
+      padding: 10px;
+      line-height: 200%;
+      display: inline-block; }
+    header .navigation ul li:hover {
+      background-color: black;
+      color: #FFFFFF; }
 
 body {
   font-family: Arial; }
@@ -86,7 +64,6 @@ body {
     float: left; }
 
 video {
-  -o-object-fit: cover;
   object-fit: cover;
   width: 100vw;
   height: 570px; }
@@ -186,3 +163,5 @@ video {
 
 .gird-item {
   width: 380px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,38 +1,39 @@
 header {
-
     height: 60px;
     background-color: $mainColor;
     border-bottom: 1px solid $additionalColor;
     color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 18px;
     font-weight: bold;
 
-    .logo {
+    #logo {
+        position: relative;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        img {
+            position: absolute;
+        }
     }
 
     .navigation {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        // border: 1px solid blue;
-        height: 60px;
+
         ul {
-            border: 1px solid red;
-            display: flex;
-            // flex-direction: row;
-            // align-content: center;
-            // align-self: center;
             list-style: none;
+
             li {
                 height: 60px;
-                border: 1px solid green;
                 margin: auto;
+                padding: 10px;
+                line-height: 200%;
                 display: inline-block;
+            }
 
+            li:hover {
+                background-color: black;
+                color: $mainColor;
             }
         }
     }
