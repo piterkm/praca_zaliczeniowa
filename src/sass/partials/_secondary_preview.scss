@@ -1,6 +1,6 @@
 .section-header {
     h2 {
-        padding: 10px 0px 10px 0px;
+        padding: 5px 0px 5px 0px;
         margin: 20px 0px 20px 0px;
         border: 4px solid $secondaryColor;
         border-left: 0px;
@@ -28,9 +28,10 @@
             float: left;
             position: absolute;
             margin: 20px;
-            padding: 10px;
+            padding: 5px 10px 5px 10px;
             background-color: $secondaryColor;
             color: $mainColor;
+            font-size: 13px;
         }
 
         .secondary-content {
@@ -44,11 +45,13 @@
                 margin: 0px 20px 0px 20px;
                 font-size: 18px;
                 font-weight: bold;
+                line-height: 28px;
             }
 
             p {
                 margin: 20px;
                 font-size: 16px;
+                line-height: 28px;
             }
             button {
                 display: block;
@@ -61,6 +64,12 @@
                 font-weight: bold;
                 color: $mainColor;
                 border: 0px;
+            }
+
+            button:hover {
+                background-color: $mainColor;
+                color: $secondaryColor;
+                border: 4px solid $secondaryColor;
             }
         }
 

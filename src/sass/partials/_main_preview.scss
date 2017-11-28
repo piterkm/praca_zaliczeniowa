@@ -1,3 +1,14 @@
+.video-container {
+    position: relative;
+    h1 {
+        position: absolute;
+        float: left;
+    }
+
+}
+
+
+
 video {
     object-fit: cover;
     width: 100vw;

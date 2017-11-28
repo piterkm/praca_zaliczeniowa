@@ -61,19 +61,29 @@ header {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    height: 60px; }
     header .navigation ul {
+      border: 1px solid red;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       list-style: none; }
       header .navigation ul li {
+        height: 60px;
+        border: 1px solid green;
         margin: auto;
         display: inline-block; }
 
 body {
   font-family: Arial; }
+
+.video-container {
+  position: relative; }
+  .video-container h1 {
+    position: absolute;
+    float: left; }
 
 video {
   -o-object-fit: cover;
@@ -82,7 +92,7 @@ video {
   height: 570px; }
 
 .section-header h2 {
-  padding: 10px 0px 10px 0px;
+  padding: 5px 0px 5px 0px;
   margin: 20px 0px 20px 0px;
   border: 4px solid #3E3E3E;
   border-left: 0px;
@@ -105,9 +115,10 @@ video {
     float: left;
     position: absolute;
     margin: 20px;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     background-color: #3E3E3E;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 13px; }
   #masonry .secondary-element .secondary-content {
     background: #FFFFFF;
     padding: 20px 10px 20px 10px;
@@ -116,10 +127,12 @@ video {
     #masonry .secondary-element .secondary-content h1 {
       margin: 0px 20px 0px 20px;
       font-size: 18px;
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 28px; }
     #masonry .secondary-element .secondary-content p {
       margin: 20px;
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 28px; }
     #masonry .secondary-element .secondary-content button {
       display: block;
       margin: auto;
@@ -130,6 +143,10 @@ video {
       font-weight: bold;
       color: #FFFFFF;
       border: 0px; }
+    #masonry .secondary-element .secondary-content button:hover {
+      background-color: #FFFFFF;
+      color: #3E3E3E;
+      border: 4px solid #3E3E3E; }
 
 .grid-container {
   width: 100%;
