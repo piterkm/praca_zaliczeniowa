@@ -37,7 +37,8 @@ nav {
   font-weight: bold;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
   nav #logo {
     position: relative;
     height: 60px;
@@ -58,6 +59,14 @@ nav {
       color: #000000;
       border: 4px solid #000000;
       padding: 3px 6px 3px 6px; }
+    nav #logo a:link {
+      text-decoration: none; }
+    nav #logo a:visited {
+      text-decoration: none; }
+    nav #logo a:hover {
+      text-decoration: none; }
+    nav #logo a:active {
+      text-decoration: none; }
   @media only screen and (max-width: 1199px) {
     nav .navigation {
       display: none; }
