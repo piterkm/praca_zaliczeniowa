@@ -70,6 +70,11 @@ nav {
 body {
   font-family: Arial; }
 
+footer {
+  margin-top: 20px;
+  height: 150px;
+  background-color: #000000; }
+
 .video-container {
   position: relative; }
   .video-container h1 {
@@ -111,6 +116,8 @@ video {
     background-color: #3E3E3E;
     color: #FFFFFF;
     font-size: 13px; }
+  #masonry .secondary-element .secondary-photo {
+    height: auto; }
   #masonry .secondary-element .secondary-content {
     background: #FFFFFF;
     padding: 20px 10px 20px 10px;
