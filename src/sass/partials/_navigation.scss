@@ -1,3 +1,4 @@
+
 nav {
     height: 60px;
     background-color: $mainColor;
@@ -5,6 +6,9 @@ nav {
     color: black;
     font-size: 18px;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
     // position: fixed;
 
     #logo {
@@ -21,21 +25,45 @@ nav {
         }
     }
 
-    .navigation {
-        ul {
-            list-style: none;
+    @media only screen and (max-width: 1199px) {
+        .navigation {
+            display: none;
+            ul {
+                list-style: none;
 
-            li {
-                height: 60px;
-                margin: auto;
-                padding: 10px;
-                line-height: 200%;
-                display: inline-block;
+                li {
+                    height: 60px;
+                    margin: auto;
+                    padding: 10px;
+                    line-height: 200%;
+                    display: inline-block;
+                }
+
+                li:hover {
+                    background-color: black;
+                    color: $secondaryAdditionalColor;
+                }
             }
+        }
+    }
 
-            li:hover {
-                background-color: black;
-                color: $mainColor;
+    @media only screen and (min-width: 1200px) {
+        .navigation {
+            ul {
+                list-style: none;
+
+                li {
+                    height: 60px;
+                    margin: auto;
+                    padding: 10px;
+                    line-height: 200%;
+                    display: inline-block;
+                }
+
+                li:hover {
+                    background-color: black;
+                    color: $mainColor;
+                }
             }
         }
     }

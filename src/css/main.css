@@ -34,7 +34,10 @@ nav {
   border-bottom: 1px solid #CACACA;
   color: black;
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%; }
   nav #logo {
     position: relative;
     height: 60px;
@@ -55,17 +58,32 @@ nav {
       color: #000000;
       border: 4px solid #000000;
       padding: 3px 6px 3px 6px; }
-  nav .navigation ul {
-    list-style: none; }
-    nav .navigation ul li {
-      height: 60px;
-      margin: auto;
-      padding: 10px;
-      line-height: 200%;
-      display: inline-block; }
-    nav .navigation ul li:hover {
-      background-color: black;
-      color: #FFFFFF; }
+  @media only screen and (max-width: 1199px) {
+    nav .navigation {
+      display: none; }
+      nav .navigation ul {
+        list-style: none; }
+        nav .navigation ul li {
+          height: 60px;
+          margin: auto;
+          padding: 10px;
+          line-height: 200%;
+          display: inline-block; }
+        nav .navigation ul li:hover {
+          background-color: black;
+          color: #000000; } }
+  @media only screen and (min-width: 1200px) {
+    nav .navigation ul {
+      list-style: none; }
+      nav .navigation ul li {
+        height: 60px;
+        margin: auto;
+        padding: 10px;
+        line-height: 200%;
+        display: inline-block; }
+      nav .navigation ul li:hover {
+        background-color: black;
+        color: #FFFFFF; } }
 
 body {
   font-family: Arial; }
@@ -191,6 +209,36 @@ video {
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
       transform: scaleX(1); }
+
+.article-main-photo {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  background-image: url("../../src/images/article_main_pic.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-content {
+  font-size: 16px;
+  line-height: 30px; }
+  .article-content .article-column {
+    width: 640px;
+    margin: 20px 0px 10px 110px;
+    text-align: justify;
+    text-justify: inter-word; }
+  .article-content .article-lead {
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold; }
+  .article-content .article-chapter {
+    font-weight: bold; }
+  .article-content .article-paragraph {
+    margin-top: 20px; }
 
 .grid-container {
   width: 100%;
