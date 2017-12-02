@@ -1,16 +1,12 @@
 @import "modules/reset";
-@import "modules/fonts";
-@import "modules/mixins";
 @import "modules/all";
 @import "modules/colors";
 @import "partials/variables";
-@import "partials/header";
-@import "partials/homepage";
+@import "partials/navigation";
 @import "partials/base";
 @import "partials/footer";
-@import "partials/previews";
-@import "partials/main_preview";
-@import "partials/secondary_preview";
+@import "homepage/main_preview";
+@import "homepage/secondary_preview";
 // @import "partials/masonry_layout";
 
 //TWORZENIE GRIDA (12 KOLUMN)

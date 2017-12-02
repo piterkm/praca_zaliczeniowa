@@ -79,8 +79,9 @@ body {
 video {
   -o-object-fit: cover;
   object-fit: cover;
-  width: 100vw;
-  height: 570px; }
+  width: 100%;
+  height: 570px;
+  margin: 0; }
 
 .section-header h2 {
   padding: 5px 0px 5px 0px;
@@ -177,7 +178,8 @@ video {
       transition-timing-function: ease-out; }
     #masonry .secondary-element .secondary-content .hvr-sweep-to-right:hover, #masonry .secondary-element .secondary-content .hvr-sweep-to-right:focus, #masonry .secondary-element .secondary-content .hvr-sweep-to-right:active {
       color: #3E3E3E;
-      border: 6px solid #3E3E3E; }
+      border: 6px solid #3E3E3E;
+      cursor: pointer; }
     #masonry .secondary-element .secondary-content .hvr-sweep-to-right:hover:before, #masonry .secondary-element .secondary-content .hvr-sweep-to-right:focus:before, #masonry .secondary-element .secondary-content .hvr-sweep-to-right:active:before {
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
